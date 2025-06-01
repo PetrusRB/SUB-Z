@@ -4,7 +4,7 @@
     "$className": "DataModel",
     "ReplicatedStorage": {
       "Shared": {
-        "$path": "src/shared"
+        "$path": "src/module"
       },
       "Packages": {
         "$path": "Packages"
@@ -21,18 +21,18 @@
     "StarterPlayer": {
       "StarterCharacterScripts": {
         "Client": {
-          "$path": "src/client"
+          "$path": "src/startPlayer/charscript/client"
         }
       },
       "StarterPlayerScripts": {
         "Client": {
-          "$path": "src/client"
+          "$path": "src/startPlayer/playerscript/client"
         }
       }
     },
     "StarterGui": {
       "Client": {
-        "$path": "src/client"
+        "$path": "src/guiscripts"
       }
     }
   }
